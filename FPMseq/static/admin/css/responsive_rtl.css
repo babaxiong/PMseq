@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre\DAV\Exception</s:exception>
+  <s:message>An exception occurred while executing 'UPDATE `oc_file_locks` SET `lock` = `lock` + 1, `ttl` = ? WHERE `key` = ? AND `lock` &gt;= 0' with params [1587283641, "files\/0d88fe02e7247b335447c3a7855b731e"]:
+
+SQLSTATE[40001]: Serialization failure: 1213 Deadlock found when trying to get lock; try restarting transaction</s:message>
+</d:error>
+ered #toolbar,
+    [dir="rtl"] .filtered div.xfull,
+    [dir="rtl"] .filtered .actions {
+        margin-right: 0;
+        margin-left: 230px;
+    }
+
+    [dir="rtl"] .inline-group ul.tools a.add,
+    [dir="rtl"] .inline-group div.add-row a,
+    [dir="rtl"] .inline-group .tabular tr.add-row td a {
+        padding: 8px 26px 8px 10px;
+        background-position: calc(100% - 8px) 9px;
+    }
+
+    [dir="rtl"] .related-widget-wrapper-link + .selector {
+        margin-right: 0;
+        margin-left: 15px;
+    }
+
+    [dir="rtl"] .selector .selector-filter label {
+        margin-right: 0;
+        margin-left: 8px;
+    }
+
+    [dir="rtl"] .object-tools li {
+        float: right;
+    }
+
+    [dir="rtl"] .object-tools li + li {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    [dir="rtl"] .dashboard .module table td a {
+        padding-left: 0;
+        padding-right: 16px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 767px) {
+    [dir="rtl"] .change-list .filtered .results,
+    [dir="rtl"] .change-list .filtered .paginator,
+    [dir="rtl"] .filtered #toolbar,
+    [dir="rtl"] .filtered div.xfull,
+    [dir="rtl"] .filtered .actions {
+        margin-left: 0;
+    }
+
+    [dir="rtl"] .aligned .add-another,
+    [dir="rtl"] .aligned .related-lookup,
+    [dir="rtl"] .aligned .datetimeshortcuts {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    [dir="rtl"] .aligned ul {
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,15 @@
+--- /ifswh3/BC_RAWDATA_01/DNBSEQ-T7 ---------------------------------------------------------------------------------------------------------------------------------------
+   32.4 TiB [##########] /R1100600190001                                                                                                                                   
+   29.5 TiB [######### ] /result
+   21.9 TiB [######    ] /R100600190004
+    1.0 MiB [          ] /New
+  425.5 KiB [          ]  processor_20190920_095649-HR.log
+  121.5 KiB [          ]  processor_20190920_192635-HR.log
+   97.5 KiB [          ]  processor_20190920_194050-HR.log
+   49.5 KiB [          ]  processor_20190920_181545-HR.log
+   49.5 KiB [          ]  processor_20190920_184001-HR.log
+   25.5 KiB [          ]  processor_20190920_184706-HR.log
+   25.5 KiB [          ]  processor_20190920_180019-HR.log
+   16.0 KiB [          ] /saveImage
+e   2.0 KiB [          ] /workspace
+e   2.0 KiB [          ] /flag

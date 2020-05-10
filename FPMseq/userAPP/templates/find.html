@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMseq数据查询系统</title>
+    <style>
+        select {
+            font-size: 15px;
+            text-align: left;
+            width: 22ex;
+        }
+        
+        .input {
+            width: 22ex;
+            text-align: left;
+            font-size: 15px;
+        }
+        
+        .div1 {
+            width: 15ex;
+            font-size: 15px;
+        }
+        
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<link rel="stylesheet" type="text/css" href="../../static/admin/css/forms.css">
+<!-- <script type="text/javascript" src="../../userAPP/static/admin/js/button.js"></script> -->
+
+<body>
+    <h1>PMseq数据查询系统</h1>
+    <form action="" method="GET" name="info">
+        <div>
+            <span style="text-align: left;">请选择数据类型：</span>
+            <select name="coll" id="coll">
+                <option value="bac">bac</option>
+                <option value="fun">fun</option>
+                <option value="vir">vir</option>
+                <option value="par">par</option>
+                <option value="sample_info">sampel.info</option>
+                <option value="data_stat">data.stat</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <span style="text-align: left;">请填写搜索表头：</span>
+            <input type="text" name="header" value="#Sample" class="input">
+        </div>
+        <br>
+        <div>
+            <span style="text-align: left;">请填写搜索内容：</span>
+            <!-- <textarea name="val">样本编号</textarea> -->
+            <input type="text" name="sample" value="样本编号 " class="input">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="查询" type="submit" onclick="info.action='/findresult/';info.submit()">
+            <input type="button" value="下载" type="submit" onclick="info.action='/download/';info.submit()">
+
+            <!-- <input type="submit" value="find" class="div1">
+            <button type="button" id="btn2">download</button> -->
+            <!-- <input type="submit" value="download" class="div1"> -->
+        </div>
+    </form>
+</body>
+
+</html>
